@@ -114,3 +114,26 @@ void MainScene::menuCloseCallback(Ref* pSender)
     exit(0);
 #endif
 }
+
+void MainScene::earnGold()
+{
+    this->current_gold++;
+    char str[100];
+    sprintf(str,"%d",current_gold);
+//    gold_text->setStringValue(str);
+}
+
+void MainScene::hitPlayer()
+{
+//    auto widget = cocostudio::GUIReader::getInstance()->widgetFromJsonFile("Menu/Menu.json");
+//    this->addChild(widget);
+//    auto restart_btn = (cocos2d::ui::Button *)widget->getChildByName("restart");
+//    restart_btn->addTouchEventListener([&](Ref* sender, cocos2d::ui::Widget::TouchEventType type) {
+//        if (type == cocos2d::ui::Widget::TouchEventType::ENDED) {
+//            Director::getInstance()->replaceScene(GameScene::createScene());
+//        }
+//    });
+    this->pauseSchedulerAndActions();
+    this->_actionManager->removeAllActions();
+    this->sharkMan->getSprite3D()->stopAllActions();
+}

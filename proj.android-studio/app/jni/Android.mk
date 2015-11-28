@@ -20,7 +20,12 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../../Classes/MapSequence.cpp \
                    ../../../Classes/PlayerInput.cpp \
                    ../../../Classes/ProcGenerator.cpp \
-                   ../../../Classes/SharkMan.cpp
+                   ../../../Classes/SharkMan.cpp \
+                   ../../../Classes/Coin.cpp \
+                   ../../../Classes/CoinAction.cpp \
+                   ../../../Classes/Effect.cpp \
+                   ../../../Classes/Obstacle.cpp \
+                   ../../../Classes/ObstacleAction.cpp
 
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes

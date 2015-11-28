@@ -98,8 +98,8 @@ void ProcGenerator::randomGenerate(SharkMan *player, cocos2d::Node *render_node,
     step += dt;
     obstacle_step += dt;
     if (obstacle_step > 0.4) {
-        // generateObstacle(player,render_node);
-        //obstacle_step=0;
+        generateObstacle(player, render_node);
+        obstacle_step = 0;
     }
     if (step >= 3.87) {
         generateScene(player, render_node);

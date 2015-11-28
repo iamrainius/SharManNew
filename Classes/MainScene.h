@@ -18,11 +18,15 @@ public:
     
     // implement the "static create()" method manually
     CREATE_FUNC(MainScene);
+
+    void earnGold();
+    void hitPlayer();
     
 private:
     SharkMan* sharkMan;
     PlayerInput* input;
     ProcGenerator procGen;
+    int current_gold;
     
     static void initBackground(cocos2d::Scene* scene);
     void initPerspectiveCamera();

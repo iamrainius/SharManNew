@@ -29,11 +29,11 @@ void ObstacleAction::step(float time)
 				 CCLOG("hit");
 			 }
              */
-             auto dist =Vec3(sprite->getPositionX(),0,sprite->getPositionZ()).distance(player->getPlayer()->getPosition3D());
+             auto dist =Vec3(sprite->getPositionX(),0,sprite->getPositionZ()).distance(player->getSprite3D()->getPosition3D());
              if(dist<5)
              {
                  _target->setVisible(false);
-                 auto a = (GameScene * )this->render_node;
+                 auto a = (MainScene *)this->render_node;
                  a->hitPlayer();
                  _target->setScale(2);
                  CCLOG("HIT !!!");
@@ -51,7 +51,7 @@ void ObstacleAction::step(float time)
 	}
 }
 
-ObstacleAction::ObstacleAction(Player * player,Node * render_node)
+ObstacleAction::ObstacleAction(SharkMan * player,Node * render_node)
 {
 	this->player=player;
     this->render_node = render_node;

@@ -18,7 +18,7 @@ SharkMan::SharkMan()
     sharkMan->setScale(1.2f);
     
     auto aniamtion = Animation3D::create(filename);
-    auto animate = Animate3D::createWithFrames(aniamtion, FRAME_JUMP_START, FRAME_JUMP_END, FPS);
+    auto animate = Animate3D::createWithFrames(aniamtion, FRAME_RUN_START, FRAME_RUN_END, FPS);
     sharkMan->runAction(RepeatForever::create(animate));
 }
 
