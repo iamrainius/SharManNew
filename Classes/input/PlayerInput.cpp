@@ -8,7 +8,7 @@
 
 #include "PlayerInput.h"
 #include "Constants.h"
-#include "CCMoveBy3D.h"
+#include "common/CCMoveBy3D.h"
 USING_NS_CC;
 
 PlayerInput::PlayerInput(SharkMan* player)

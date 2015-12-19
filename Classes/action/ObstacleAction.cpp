@@ -2,7 +2,7 @@
 #include "DemoUtility.h"
 
 USING_NS_CC;
-#include "MainScene.h"
+#include "scene/MainScene.h"
 
 
 bool ObstacleAction::isDone() const

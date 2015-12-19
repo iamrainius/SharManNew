@@ -2,9 +2,9 @@
 #define __MAIN_SCENE_H__
 
 #include "cocos2d.h"
-#include "SharkMan.h"
-#include "PlayerInput.h"
-#include "ProcGenerator.h"
+#include "entities/SharkMan.h"
+#include "input/PlayerInput.h"
+#include "control/ProcGenerator.h"
 
 class MainScene : public cocos2d::Layer
 {

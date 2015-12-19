@@ -1,5 +1,5 @@
 #include "Coin.h"
-#include "CoinAction.h"
+#include "action/CoinAction.h"
 
 USING_NS_CC;
 

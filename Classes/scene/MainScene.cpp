@@ -1,5 +1,5 @@
 #include "MainScene.h"
-#include "MapSequence.h"
+#include "control/MapSequence.h"
 
 USING_NS_CC;
 

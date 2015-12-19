@@ -1,7 +1,7 @@
 #ifndef  GROUND_ACTION_H
 #define GROUND_ACTION_H  
 #include "cocos2d.h"
-#include "SharkMan.h"
+#include "entities/SharkMan.h"
 
 class GroundAction: public cocos2d::Action
 {

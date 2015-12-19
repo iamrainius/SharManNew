@@ -1,5 +1,5 @@
 #include "AppDelegate.h"
-#include "MainScene.h"
+#include "scene/MainScene.h"
 
 USING_NS_CC;
 

@@ -12,7 +12,6 @@
 
 NS_CC_BEGIN
 
-
 //moveBy class for 3d Object
 class  MoveBy3D : public ActionInterval
 {
@@ -44,11 +43,6 @@ protected:
 private:
 	CC_DISALLOW_COPY_AND_ASSIGN(MoveBy3D);
 };
-
-
-
-
-
 
 NS_CC_END
 #endif

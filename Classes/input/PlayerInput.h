@@ -10,7 +10,7 @@
 #define __PLAYER_INPUT_H__
 
 #include "cocos2d.h"
-#include "SharkMan.h"
+#include "entities/SharkMan.h"
 
 class PlayerInput
 {

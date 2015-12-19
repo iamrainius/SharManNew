@@ -11,21 +11,21 @@ LOCAL_MODULE := cocos2dcpp_shared
 LOCAL_MODULE_FILENAME := libcocos2dcpp
 
 LOCAL_SRC_FILES := hellocpp/main.cpp \
+                   ../../../Classes/action/CoinAction.cpp \
+                   ../../../Classes/action/DecorationAction.cpp \
+                   ../../../Classes/action/GroundAction.cpp \
+                   ../../../Classes/action/ObstacleAction.cpp \
+                   ../../../Classes/common/CCMoveBy3D.cpp \
+                   ../../../Classes/control/MapSequence.cpp \
+                   ../../../Classes/control/ProcGenerator.cpp \
+                   ../../../Classes/entities/Coin.cpp \
+                   ../../../Classes/entities/Effect.cpp \
+                   ../../../Classes/entities/Obstacle.cpp \
+                   ../../../Classes/entities/SharkMan.cpp \
+                   ../../../Classes/input/PlayerInput.cpp \
+                   ../../../Classes/scene/MainScene.cpp \
                    ../../../Classes/AppDelegate.cpp \
-                   ../../../Classes/CCMoveBy3D.cpp \
-                   ../../../Classes/DecorationAction.cpp \
-                   ../../../Classes/DemoUtility.cpp \
-                   ../../../Classes/GroundAction.cpp \
-                   ../../../Classes/MainScene.cpp \
-                   ../../../Classes/MapSequence.cpp \
-                   ../../../Classes/PlayerInput.cpp \
-                   ../../../Classes/ProcGenerator.cpp \
-                   ../../../Classes/SharkMan.cpp \
-                   ../../../Classes/Coin.cpp \
-                   ../../../Classes/CoinAction.cpp \
-                   ../../../Classes/Effect.cpp \
-                   ../../../Classes/Obstacle.cpp \
-                   ../../../Classes/ObstacleAction.cpp
+                   ../../../Classes/DemoUtility.cpp
 
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../Classes

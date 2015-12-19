@@ -1,6 +1,6 @@
 #include "CoinAction.h"
-#include "MainScene.h"
-#include "Effect.h"
+#include "scene/MainScene.h"
+#include "entities/Effect.h"
 
 USING_NS_CC;
 

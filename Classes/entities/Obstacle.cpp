@@ -3,7 +3,7 @@
 using namespace cocos2d;
 
 #include "DemoUtility.h"
-#include "ObstacleAction.h"
+#include "action/ObstacleAction.h"
 
 Obstacle::Obstacle()
         : obstacle_sprite(nullptr) {

@@ -2,7 +2,7 @@
 #define COIN_ACTION_H
 
 #include "cocos2d.h"
-#include "SharkMan.h"
+#include "entities/SharkMan.h"
 
 // the action for the coin,check every frame whether the player get the coin
 class CoinAction : public cocos2d::Action {

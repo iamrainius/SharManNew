@@ -4,7 +4,7 @@
 #include <cocos2d.h>
 #include <stack>
 #include "MapSequence.h"
-#include "SharkMan.h"
+#include "entities/SharkMan.h"
 class ProcGenerator
 {
 public:
@@ -13,7 +13,6 @@ public:
     void randomGenerate(SharkMan* player, cocos2d::Node* render_node,float dt);
     void generateScene(SharkMan* player,cocos2d::Node* render_node);
     void generateObstacle(SharkMan* player,cocos2d::Node* render_node);
-//    void generateCoin(SharkMan* player,cocos2d::Node* render_node);
     void generateGround(cocos2d::Node* render_node);
     void insertMapSequence(MapSequence* map_sequence);
     void preGenerate(cocos2d::Node* render_node);

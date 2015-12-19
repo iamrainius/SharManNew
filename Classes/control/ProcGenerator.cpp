@@ -10,10 +10,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "DecorationAction.h"
-#include "GroundAction.h"
-#include "Obstacle.h"
-#include "Coin.h"
+#include "action/DecorationAction.h"
+#include "action/GroundAction.h"
+#include "entities/Obstacle.h"
+#include "entities/Coin.h"
 
 using namespace cocos2d;
 
